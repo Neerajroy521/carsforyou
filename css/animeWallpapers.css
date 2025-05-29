@@ -1,0 +1,10 @@
+
+
+body{
+    background-image: url(../photos/anime-wallpaper.jpg);
+}
+.anime-wallpaper-container{
+    height: 2429px;
+    /* background-color:rgb(242, 122, 78) */
+    /* background-color: rgb(102, 199, 93); */
+  }

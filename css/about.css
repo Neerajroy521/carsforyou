@@ -1,0 +1,26 @@
+
+
+.responsive-container {
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .responsive-container p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+
+  .responsive-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  @media (max-width: 400px) {
+    .responsive-container p {
+      font-size: 1rem;
+    }
+  }

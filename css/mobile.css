@@ -1,0 +1,142 @@
+/* 
+
+@media screen and (max-width:1400px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 40px;
+        text-align:center;
+    }
+    .nav-left{
+        flex-direction: column;
+    }
+    .content-right img{
+        display:none;
+    }
+} */
+
+@media screen and (max-width:1323px){
+
+    .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .nav-bar{
+        padding: 0;
+        width:0;
+        position: relative;
+    }
+
+    .website-name h2{
+  color: red;
+  padding-right: 10px;
+  margin-top: 25px;
+}
+
+    .menu{
+        display: none;
+    }
+
+    .search-btn{
+                width: 6vw;
+        height: 19px;
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .sidebar{
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+ 
+
+    .nav-left{
+        flex-direction: column;
+    }
+    .nav-left span{
+    position: absolute;
+    top: 58px;
+    left: 129px;
+    }
+
+
+    .nav-right form{
+  display: flex;
+  margin-right: 0px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input{
+        width: 31vw;
+        height: 4vh;
+    }
+
+
+
+
+    .home-articles{
+        height: auto;
+
+    }
+    .home-article{
+        margin:0;
+        flex-direction: column;
+    }
+    .home-article img{
+        width:47vw;
+    }
+    .content{
+        flex-direction:column;
+        /* height: 563px; */
+
+    }
+    .content-right img{
+        width:74vw;
+        padding:0;
+    }
+
+    .website-name{
+        font-size: 25px;
+    }
+
+    .content-left p {
+    font-size: 2vw;
+}
+    
+
+}
+/* ----------------------------------------this is for nav-bar */
+/* This i media query which is used for responsive */
+@media screen and (max-width:882px){
+
+   
+
+    .form-input{
+    width: 70vw;
+    height: 30px;
+    }
+    .search-btn{
+    font-size: 1.6vw;
+    width: 9vw;
+    border-radius:5px
+    }
+
+
+
+}
+
+/* fooooter  */
+.information p {
+    font-size: 25px;
+    margin: 0px 17px;
+  }
+  
+  .footer p {
+    font-size: 13px;
+    /* font-weight: bold; */
+  }
+
