@@ -80,7 +80,7 @@
     .image-wrapper a img,
     .download-button {
       width: 280px;
-      height: 280px;
+      height: auto;
       max-width: 280px;
     }
   }
